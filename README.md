@@ -1,11 +1,14 @@
 # Community evolution on YouTube in Gaming
 
 # Abstract
-Communities are at the heart of YouTube. Major communities like _Gaming_ or _Entertainment_ dominate in the YouTube space. Viewers who engage with communities they are interested in tend to comment on their videos, these viewers hence belong to the community of these channels. In our work, we decide to dive in depth into the _Gaming_ community, and define relevant sub-communities to the gaming industry. These include: _Call Of Duty, GTA, Fifa, Minecraft, Fortnite, League of Legends_ and other communities dedicated to _Mobile Games_, such as Clash of Clans, as well as _Gaming News_ which encompasses channels such as Rockstar Games or IGN which publish videos related to new games and so on. Viewers belong to a community $X$ __if they have authored more than $TODO$ comments, ON FAIT QUOI LA__ with the majority of comments belonging to videos in category $X$ at a certain point in time. Our goal is to model communities and interactions between different communities over time. That is, how often do people from community $X$ comment on videos of community $Y$? And how often do users migrate to other communities? We will show that users interact with other communities when events take place, such as the release of _Fortnite_ in 2017, and we will show how and why.
+Communities are at the heart of YouTube. Major communities like _Gaming_ or _Entertainment_ dominate in the YouTube space. Viewers who engage with communities they are interested in tend to comment on their videos, these viewers hence belong to the community of these channels. In our work, we decide to dive in depth into the _Gaming_ community, and define relevant sub-communities to the gaming industry. These include a selected set of major games: _Call of Duty, GTA, FIFA, Minecraft, Fortnite, League of Legends_, and other communities dedicated to Mobile Games, such as Clash of Clans. Additionally, we consider communities focused on Gaming News, which encompass channels like Rockstar Games or IGN, publishing videos related to new games, and so on. We will analyze these communities based on the engagement of their authors in their respective comment sections. Using the comments' engagement of the viewers is indeed a strong assumption for analyzing these communities, as people who write comments tend to be those engaged in the life of the channel. Our goal is then to model communities and interactions between different communities over time. That is, how often do people from community $X$ comment on videos of community $Y$? And how often do users migrate to other communities? We will show that users interact with other communities when events take place, such as the release of _Fortnite_ in 2017, and we will show how and why.
 
 # Research Questions
-- How do communities interact and how do they evolve?
+- How do communities interact, and how do they evolve?
 - Which community dominates over others?
+- What are the key factors that could lead to an attention shift from one gaming community to another?
+- Since 2015, how have communities of major games evolved?
+- Are there some games that are resistant to change and have remained stable since 2015?
 
 # Methodology
 
