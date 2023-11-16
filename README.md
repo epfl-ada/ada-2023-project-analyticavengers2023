@@ -1,11 +1,10 @@
 # Community evolution on YouTube in Gaming
 
 # Abstract
-Communities are at the heart of YouTube. Major communities like _Gaming_ or _Entertainment_ dominate in the YouTube space. In our work, we decide to dive in-depth into the _Gaming_ community and define relevant sub-communities related to the gaming industry. These include a selected set of major games, like _GTA, Minecraft, Fortnite, League of Legends_ and more. We also take a look at other communities dedicated to Mobile Games, such as Clash Royale. Additionally, we consider communities focused on Gaming News, which encompasses channels like IGN. We will analyze these communities based on the engagement of viewers in the comments section. Using the comments' engagement of viewers is indeed a strong assumption for analyzing these communities, as people who write comments tend to be those engaged in the life of the channel. Our goal is then to model communities and interactions between different communities over time. For example, how often do people in the _Minecraft_ community comment on _Fortnite_ videos? And how often do users migrate to other communities? We will show that users interact with other communities when events take place, such as the release of _Fortnite_ in 2017, and we will show how and why.
+Communities are at the heart of YouTube. Major communities like _Gaming_ or _Entertainment_ dominate in the YouTube space. In our work, we decide to dive in-depth into the _Gaming_ community and define relevant sub-communities related to the gaming industry. These include a selected set of major games, like _GTA, Minecraft, Fortnite_ and more. We also take a look at other communities dedicated to Mobile Games, such as Clash Royale. Additionally, we consider communities focused on Gaming News, which encompasses channels like IGN. We will analyze these communities based on the engagement of viewers in the comments section. Using the comments' engagement of viewers is a strong assumption for analyzing these communities, as people who write comments tend to be those engaged in the community. Our goal is then to model communities and interactions between different communities over time. For example, how often do people in the _Minecraft_ community comment on _Fortnite_ videos? And how often do users migrate to other communities? We will show that users interact with other communities when events take place, such as the release of _Fortnite_ in 2017, and we will show how and why.
 
 # Research Questions
 - How do communities interact, and how do they evolve?
-- Which community dominates over others?
 - What are the key factors that could lead to an attention shift from one community to another?
 - Are there some games that are resistant to change and have remained stable since 2015?
 
@@ -28,18 +27,15 @@ A preliminary analysis was made on the timeseries data to observe the evolution 
 #### Comments Analysis
 We first started exploring the distribution of the comments dataset, using comments per video and comments per author. The aim was to gain an overview of the feasibility of using author-specific comments for robust future analysis. Moreover, this is where the selection of specific gaming channels per community were chosen.
 We also focused our analysis into video _tags_, matching viewers to videos at a certain point in time. Then, we went more in depth into the _Gaming_ community. From this analysis, we could see that users usually comment in few communities (some examples include users commenting only on Fortnite and Minecraft videos). Note that these preliminary analyses were conducted using a sample of 100 million comments from the extensive comments dataset.
-
-### Community Graph
-- Our aim for milestone 3, is to build a large directed network, to model the interactions between communities. The aim is to have $n$ nodes, where $n$ denotes the number of communities we decided to work with. The nodes will be designed as bubbles, where the size of the bubbles designates the number of members in that community.
-- The set of edges $E$ represents the number of comments from the outgoing community to the receiving one. The idea is to make the edges have weights, where the weights grow when there is a larger number of comments authored in another category.
-- We will also modify the size of nodes over time, as members can leave or join the community.
   
 # Timeline
 Steps:
 - For P3, we will have a much more reduced dataset, which will be easier to work with. We still need to decide if we will merge some communities together, to get a more accurate representation of communities. For example, one idea we have is to include the game _Pro Evolution Soccer (PES)_, and merge it together with _Fifa_ to form one individual community - _Football_.
 - Produce a detailed analysis of the evolution of gaming communities over time, aiming to correlate significant shifts with real-world events.
-- Produce the graph. 
-    - As mentioned, we can produce the data to make the graph for every week. The idea would be to have a scrollable graph, able to scroll over each time period and check the state of the communities and the interactions between these.
+- Build a large directed network, to model the interactions between communities.
+    - The aim is to have $n$ nodes, where $n$ denotes the number of communities we work with. The nodes will be designed as bubbles, where the size of the bubbles designates the number of members in that community, which can change over time.
+    - The set of weighted edges $E$ will represent the number of comments from the outgoing community to the receiving one, where the weights grow depending on the number of comments between communities. 
+      
 - Perform a clustering analysis using both comments and tags.
     - The objective would be to extract all gaming videos, identify their main tags, and categorize the set of authors who commented or did not comment. Utilize dimensionality reduction techniques such as PCA or t-SNE to visualize whether, on a global scale, videos naturally cluster by communities (i.e., equivalent tags).
 
