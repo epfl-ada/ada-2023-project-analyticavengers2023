@@ -21,7 +21,7 @@ Communities are at the heart of YouTube. Major communities like _Gaming_ or _Ent
 #### Community definition and viewer membership
 - A community is defined by a major game or is heavily related to _Gaming_. The communities we have defined are mentioned in the abstract (susceptible to changes in P3).
 
-- We will study comments on YouTube between the years 2015 and 2019 (the only years available in the time series data). From comments, can compute the category of videos authors commented on the most and link them to a community. Using the time series data, we can study the comments data for every week (or month; TBD) and if the majority of the comments users have made in this time window changes over time, they will change community. For instance, if user $u$ has authored 60% of their comments in category $X$ and 40% in category $Y$ at a certain time period $T$, they will be linked to $X$. At time $T+T'$, suppose the proportions become 40% and 60% respectively, then user $u$ will become a member of $Y$.
+- We will study comments on YouTube between the years 2015 and 2019 (the only years available in the time series data). From comments, can compute the category of videos authors commented on the most and link them to a community. Using the time series data, we can study the comments data for every week and if the majority of the comments users have made in this time window changes over time, they will change community. For instance, if user $u$ has authored 60% of their comments in category $X$ and 40% in category $Y$ at a certain time period $T$, they will be linked to $X$. At time $T+T'$, suppose the proportions become 40% and 60% respectively, then user $u$ will become a member of $Y$.
 #### Timeseries analysis
 A preliminary analysis was made on the timeseries data to observe the evolution of views and subscribers for the largest channels. However, since we decided to work on _Gaming_ videos, we decided to dive deeper into this YouTube category. We studied the evolution in the timeseries of the specific channels we handpicked and the correlations over time. This will allow us to look at the interactions between communities. We want to measure the outgoing comments from one community to another, if people leave their communities, and if so, __when__ does this happen? More details in __Organization__.
 
@@ -33,16 +33,13 @@ We also focused our analysis into video _tags_, matching viewers to videos at a 
 - Our aim for milestone 3, is to build a large directed network, to model the interactions between communities. The aim is to have $n$ nodes, where $n$ denotes the number of communities we decided to work with. The nodes will be designed as bubbles, where the size of the bubbles designates the number of members in that community.
 - The set of edges $E$ represents the number of comments from the outgoing community to the receiving one. The idea is to make the edges have weights, where the weights grow when there is a larger number of comments authored in another category.
 - We will also modify the size of nodes over time, as members can leave or join the community.
-
-The ultimate goal is to produce the evolution of this graph over time. We want to make an interactive UI, where we can scroll over time and look at how this graph evolves
-
+  
 # Timeline
 Steps:
 - For P3, we will have a much more reduced dataset, which will be easier to work with. We still need to decide if we will merge some communities together, to get a more accurate representation of communities. For example, one idea we have is to include the game _Pro Evolution Soccer (PES)_, and merge it together with _Fifa_ to form one individual community - _Football_.
-- We then need to define a time window (we are thinking about 1 month) to match users to their categories. This way, for every time period $t$, we have a fixed state of the communities in time: we can collect comment data for each user and assign them to a community. $TODO$ needs clarity.
 - Produce a detailed analysis of the evolution of gaming communities over time, aiming to correlate significant shifts with real-world events.
 - Produce the graph. 
-    - As mentioned, we can produce the data to make the graph for every time period we define. The idea would be to have a scrollable graph, able to scroll over each time period and check the state of the communities and the interactions between these.
+    - As mentioned, we can produce the data to make the graph for every week. The idea would be to have a scrollable graph, able to scroll over each time period and check the state of the communities and the interactions between these.
 - Perform a clustering analysis using both comments and tags.
     - The objective would be to extract all gaming videos, identify their main tags, and categorize the set of authors who commented or did not comment. Utilize dimensionality reduction techniques such as PCA or t-SNE to visualize whether, on a global scale, videos naturally cluster by communities (i.e., equivalent tags).
 
