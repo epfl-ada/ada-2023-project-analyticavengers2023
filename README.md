@@ -19,7 +19,7 @@ Communities are at the heart of YouTube. Major communities like _Gaming_ or _Ent
 
 #### Community definition and viewer membership
 - A community is defined by a major game or is heavily related to _Gaming_. (More details in the `jupyter` notebook)
-- 
+
 - We will study comments on YouTube between the years 2015 and 2019 (the only years available in the time series data). From comments, we can compute the category of videos authors commented on the most and link them to a community. Using the time series data, we can study the comments data for every week and if the majority of the comments users have made in this time window changes over time, they will change community. For instance, if user $u$ has authored 60% of their comments in category $X$ and 40% in category $Y$ at a certain time period $T$, they will be linked to $X$. At time $T+T'$, suppose the proportions become 40% and 60% respectively, then user $u$ will become a member of $Y$.
 #### Timeseries analysis
 A preliminary analysis was made on the timeseries data to observe the evolution of views and subscribers for the largest channels. However, since we decided to work on _Gaming_ videos, we decided to dive deeper into this YouTube category. We studied the evolution in the timeseries of the specific channels we handpicked and the correlations over time. This will allow us to look at the interactions between communities. We want to measure the outgoing comments from one community to another, if people leave their communities, and if so, __when__ does this happen? More details in __Organization__.
