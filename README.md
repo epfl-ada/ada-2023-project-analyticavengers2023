@@ -30,14 +30,14 @@ We also focused our analysis into video _tags_, matching viewers to videos at a 
   
 # Timeline
 Steps:
-- For P3, we will have a much more reduced dataset, which will be easier to work with. We still need to decide if we will merge some communities together, to get a more accurate representation of communities. For example, one idea we have is to include the game _Pro Evolution Soccer (PES)_, and merge it together with _Fifa_ to form one individual community - _Football_.
+- For P3, we will have a much more reduced dataset, which will be easier to work with. We still need to confirm which _Gaming_ communities we will end up using in our analysis. For example, the Gaming News community might be less interesting to study.
 - Produce a detailed analysis of the evolution of gaming communities over time, aiming to correlate significant shifts with real-world events.
 - Build a large directed network, to model the interactions between communities.
     - The aim is to have $n$ nodes, where $n$ denotes the number of communities we work with. The nodes will be designed as bubbles, where the size of the bubbles designates the number of members in that community, which can change over time.
     - The set of weighted edges $E$ will represent the number of comments from the outgoing community to the receiving one, where the weights grow depending on the number of comments between communities. 
       
-- Perform a clustering analysis using both comments and tags.
-    - The objective would be to extract all gaming videos, identify their main tags, and categorize the set of authors who commented or did not comment. Utilize dimensionality reduction techniques such as PCA or t-SNE to visualize whether, on a global scale, videos naturally cluster by communities (i.e., equivalent tags).
+- Perform a clustering analysis using both comments and tags, steps:
+    - extract all gaming videos, identify their main tags, and categorize the set of authors who commented or did not comment. Use dimensionality reduction techniques such as PCA or t-SNE to visualize whether videos naturally cluster by communities.
 
 
 # Organization
