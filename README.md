@@ -43,6 +43,6 @@ Steps:
 # Organization
 |  Timeseries Analysis    |  Comments Analysis    |  Report and weekly meetings    |
 |:-------------------------:|:-----------:|:-------------:|
-|  Paul, Yubo, Luca | Adam, Marc-Antoine| ALL|
+|  Paul, Yubo, Luca | Adam, Marc-Antoine| __Luca__ completed the backbone of the report, then everyone filled it with what they did.|
 | __Yubo__ focused on examining the relationship between different metrics, such as subscribers and videos to understand these relationships. __Luca__ made a preliminary analysis on the timeseries, focusing on the largest channels at first and then over more specific Youtube categories.|__Marc-Antoine__ conducted an exploration on the comments dataset. The aim was to gain an overview of the feasibility of using the comments of every author for future analysis. With __Paul__ they collaborated in the selection of the gaming communities and the selection of relevant channels in each community.
 |  __Paul__ looked into the evolution in the timeseries of the channels we handpicked and the correlations over time.| __Adam__ initially studied comments for each major Youtube community. Then, zooming into the _Gaming_ community, he analyzed how the community behaved for each game we were interested in.| |
