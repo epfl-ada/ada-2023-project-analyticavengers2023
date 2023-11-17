@@ -30,7 +30,7 @@ We also focused our analysis into video _tags_, matching viewers to videos at a 
   
 # Timeline
 Steps:
-- For P3, we will have a much more reduced dataset, which will be easier to work with. We still need to confirm which _Gaming_ communities we will end up using in our analysis. For example, the Gaming News community might be less interesting to study.
+- We still need to confirm which _Gaming_ communities we end up using in our analysis. For example, the Gaming News community might be less interesting to study.
 - Produce a detailed analysis of the evolution of gaming communities over time, aiming to correlate significant shifts with real-world events.
 - Build a large directed network, to model the interactions between communities.
     - The aim is to have $n$ nodes, where $n$ denotes the number of communities we work with. The nodes will be designed as bubbles, where the size of the bubbles designates the number of members in that community, which can change over time.
@@ -44,5 +44,5 @@ Steps:
 |  Timeseries Analysis    |  Comments Analysis    |  Report and weekly meetings    |
 |:-------------------------:|:-----------:|:-------------:|
 |  Paul, Yubo, Luca | Adam, Marc-Antoine| __Luca__ completed the backbone of the report, then everyone filled it with what they did. Everyone was present during weekly meetings.|
-| __Yubo__ focused on examining the relationship between different metrics, such as subscribers and videos to understand these relationships. __Luca__ made a preliminary analysis on the timeseries, focusing on the largest channels at first and then over more specific Youtube categories.|__Marc-Antoine__ conducted an exploration on the comments dataset. The aim was to gain an overview of the feasibility of using the comments of every author for future analysis. With __Paul__ they collaborated in the selection of the gaming communities and the selection of relevant channels in each community.
+| __Yubo__ focused on examining the relationship between different metrics, such as subscribers and videos to understand these relationships. __Luca__ made a preliminary analysis on the timeseries, focusing on the largest channels and then over more specific Youtube categories.|__Marc-Antoine__ conducted an exploration on the comments dataset. The aim was to gain an overview of the feasibility of using the comments of every author for future analysis. With __Paul__ they collaborated in the selection of the gaming communities and the selection of relevant channels in each community.
 |  __Paul__ looked into the evolution in the timeseries of the channels we handpicked and the correlations over time.| __Adam__ initially studied comments for each major Youtube community. Then, zooming into the _Gaming_ community, he analyzed how the community behaved for each game we were interested in.| |
