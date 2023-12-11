@@ -1722,7 +1722,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
  * ------------------------------------------------------------------- */
 .s-pageheader {
    min-height: 174px;
-   background-image: #151515;
+   background-color: #151515;
    position: relative;
 }
 
@@ -3269,6 +3269,7 @@ footer {
    font-size: 1.5rem;
    line-height: 2;
    color: rgba(255, 255, 255, 0.4);
+   background-color: #151515;
 }
 
 footer a {
