@@ -3615,7 +3615,7 @@ footer h4::after {
    padding-right: 6rem;
 }
 
-.s-content__main img {
+.s-content__main img iframe {
    max-width: 960px;
    margin: 3rem 0 3rem -6rem;
 }
@@ -3864,7 +3864,7 @@ footer h4::after {
       padding-right: 5rem;
    }
 
-   .s-content__main img {
+   .s-content__main img iframe {
       max-width: 900px;
       margin: 3rem 0 3rem -5rem;
    }
@@ -3885,7 +3885,7 @@ footer h4::after {
       padding-right: 4rem;
    }
 
-   .s-content__main img {
+   .s-content__main img iframe {
       max-width: 800px;
       margin: 3rem 0 3rem -4rem;
    }
@@ -3902,7 +3902,7 @@ footer h4::after {
       padding: 0 5rem;
    }
 
-   .s-content__main img {
+   .s-content__main img iframe {
       max-width: 100%;
       margin: 3rem 0 3rem;
    }
