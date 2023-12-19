@@ -505,6 +505,10 @@ form,
    margin-bottom: 3rem;
 }
 
+figcaption {
+   text-align: center;
+   font-size: small;
+ }
 
 /* ------------------------------------------------------------------- 
  * ## pace.js styles - minimal
