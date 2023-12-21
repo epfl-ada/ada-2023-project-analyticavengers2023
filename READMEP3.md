@@ -44,7 +44,7 @@ TOCOMPLETE
 # Organization
 Team Organisation
 - **Yubo** : TODO
-- **Marc-Antoine** : TODO
-- **Paul** : TODO
+- **Marc-Antoine** : Implemented the graph on timeseries, data story redaction
+- **Paul** : Implemented the graph on timeseries, data story redaction, research on Fortnite in general for data story research
 - **Luca** : Implemented the migrations graph, introduction to the data story and youtube gaming history.
 - **Adam** : Video Editing, Migrations Graph, Games’ communities engagements through time, Games & Communities Pie Charts, ReadMe
