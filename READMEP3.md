@@ -1,4 +1,4 @@
-# Fortnite on YouTube: A Success Story.
+# Fortnite on YouTube: A Success Story 🥇
 
 Our [data story](https://epfl-ada.github.io/ada-2023-project-analyticavengers2023/#top) 📖
 
