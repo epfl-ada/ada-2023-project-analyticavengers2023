@@ -210,12 +210,13 @@
                     However, for the research on the authors and how they behaved across the different communities, we chose to select a sample of 25 millions comments from more than 1.5 millions authors on more than 3 millions gaming videos. We then used the tags under the videos they commented on to attribute a game to the commented video.
                 </p>
 
-                <p>
-                    PUT PLOT YTBRS STATS
-                </p>
+                <figure style="text-align: center;">
+                    <iframe src="plots/top5_stats.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
+                </figure>
 
                 <p>
-                    We can already observe that even by selecting the most famous YouTuber for each game, some games are more watched than others. (......).
+                    We can already observe that even by selecting the most famous YouTuber for each game, some games are more watched than others. Additionally, Fortnite, Minecraft, and League of Legends contain YouTubers with the best rankings. For instance, in the case of GTA, 
+                    'DarkViperAU' is not as well-known in terms of subscribers, even though he is famous within the GTA community.
                 </p>
                 <figure style="text-align: center;">
                     <iframe src="plots/median_data_game_cat.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
@@ -234,9 +235,9 @@
                     When looking at the join date of famous YouTubers, we observe that they all started their channels between 2006 and 2016, before the creation of Fortnite. For example, 'Ali-A' began his channel in 2006 but is now known for his Fortnite videos, even though he initially produced only Call of Duty content. The difference: he was getting 10k views before and 500k today. The same pattern repeats for other YouTubers. For instance, the most famous Fortnite player, 'Ninja,' started his channel in 2011, but like 'Ali-A,' he was playing another famous FPS game, Halo. More generally, when looking at these YouTubers, they were all already producing content, but when they switched to Fortnite, everything changed! They became real opportunity takers.
                 </p>
 
-                <p>
-                    PUT PLOT FORTNITE YTBRS
-                </p>
+                <figure style="text-align: center;">
+                    <iframe src="plots/fortnite_timeseries.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
+                </figure>
 
                 <p>
                     Now that we know that the famous Fortnite YouTubers of today are, in fact, seasoned platform creators who waited several years before gaining fame, we can delve into their communities. While these YouTubers owe their current fame to their content, creativity, and talent, it's primarily due to their communities that began following them. But who are these followers? Are they new to the platform, drawn to YouTube by the release of Fortnite? Or do they come from another well-established community?
@@ -263,15 +264,16 @@
                     As mentioned earlier, comments are the best metric to evaluate the real community for a game. While views serve as a good indicator for the general audience and success of a 
                     game, analyzing the strength of the comments community and its origin is crucial to measure the community impact. First, as mentioned earlier, we based this analysis on a sample of 25 million comments. Within this sample, we observed a high proportion of Fortnite 
                     and Minecraft comments, approximately 1,800,000 and 4,300,000 comments respectively. We then measured the proportion of new commenters under Fortnite videos who produced their first comments specifically under a 
-                    Fortnite video, compared to new commenters that were already commenting on another game.
-                </p>
+                    Fortnite video, compared to new commenters that were already commenting on another game. 
+
+                <figure style="text-align: center;">
+                    <iframe src="plots/authors_fraction_firstcomm_fornite.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
+                </figure>
+
+                
 
                 <p>
-                    PUT PLOT camembert provenance des com
-                </p>
-
-                <p>
-                    (...comments on the graph...).But for the new commenters who already had a community, what was their community? Was it similar to the Minecraft community, like the viewers?
+                    We observe a significant amount of new authors for who their first comments was under a Fortnite videos. Among the 81.2% authors that had already made a comments, what was their community? Was it similar to the Minecraft community, like the viewers?
                 </p>
 
                 <figure style="text-align: center;">
@@ -281,6 +283,20 @@
                 <p>
                     And yes, similar to the views, the majority of new Fortnite authors were former Minecraft authors. This graph, illustrating the proportion of common authors between Fortnite and other games between 2015 and 2018, 
                     shows that Minecraft and Fortnite shared almost 50,000 authors.
+                </p>
+
+                <p>
+                    We can also answer the question: Do active authors who engage in extensive commentary participate in a singular community, or do they contribute to various communities across different games? To do so, we selected the top 30 most active authors in our dataset and computed 
+                    the percentage distribution of the games they commented on.
+                </p>
+
+                <figure style="text-align: center;">
+                    <iframe src="plots/fraction_game_perauthors.html" style="height:600px; width:100%;" frameborder="0" position="relative"></iframe>
+                </figure>
+
+                <p>
+                    For the truly active authors, they all have a favorite game (either FIFA, Fortnite, etc.), but it is rare that they restrict their 
+                    comments to one category. Except for 9 authors who have almost or exactly 100% of comments on a specific game (mostly Minecraft authors), active authors comment under a lot of other games in addition to their favorite game.
                 </p>
 
                 <p>
@@ -304,15 +320,22 @@
                     Yet, Fortnite has done it. The "Take the L" dance from its game found its way into the FIFA's 2018 World Cup Final, via Antoine Griezmann who used it as its goal celebration. 
                     By making his dance in this 1.12 billion viewers event, Griezmann had a major influence in Fortnite community development, interacting with another community: the sport one.
                 </p>
+                
+                <figure style="text-align: center;">
+                    <iframe src="plots/marshmello.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
+                </figure>
+
                 <p>    
                     <!--This crossover illustrates what makes Fortnite so special: a video game able to blur the boundaries between the purist geek community and the mainstream pop-culture.-->
                     Fortnite's influence reaches beyond its distinctive emotes, extending into the realm of live events that leave a significant imprint on both the gaming community and mainstream culture. 
                     The game has become a virtual stage for groundbreaking live concerts featuring some of the world's most renowned artists: Marshmello, Travis Scott, Ariana Grande, Eminem, and others took place on the virtual stage.
                 </p>
+                
                 <!-- MARSHMELLO (+ Fortnite?) VIEWS -->
                 <figure style="text-align: center;">
                     <iframe src="plots/Log_transformed_delta_views_withF_timeseries.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
                 </figure>
+
                 <p>
                     These events, represent a revolutionary fusion of gaming and music communities, attracting millions of players and viewers alike while also generating an immense online buzz.
                     YouTube Gaming becomes a primary hub for reliving or catching up on these - <a href="https://www.nytimes.com/2023/12/03/style/fortnite-eminem-big-bang.html" target="_blank">often very hard to access</a> - virtual concerts, contributing to a surge in views for related content, including concert highlights, reactions, and behind-the-scenes footage.
