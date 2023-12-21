@@ -194,22 +194,100 @@
                     Fortnite's impact extended beyond its gameplay mechanics. The introduction in the late 2017 of the "Battle Pass" system, offering cosmetic rewards and challenges, revolutionized the monetization model for free-to-play games. 
                     This approach inspired by classic Season Pass proved immensely successful, leading other titles to adopt similar systems in the years that followed.
                 </p>
+                <!-- FORTNITE COMMUNITY -->
                 <h4>YouTube Community</h4>
+                <p>
+                    We can now ask ourselves: How does the Youtube gaming community react to the release of this novelty? Indeed, as we introduced above, gaming communities are very different from other YouTube communities. Most viewers play the games themselves and are therefore all the more involved when it comes to following the exploits of their favorite YouTubers.
+                    Then some questions arise:
+                </p>
+                <ul>
+                    <li>Did Fortnite attract pre-existing gamer YouTubers, or were Fortnite creators newcomers to the platforms?</li>
+                    <li>Did Fortnite attract viewership from established gaming communities, or did it build its own distinct audience?</li>
+                    <li>Do active authors who engage in extensive commentary participate in a singular community, or do they contribute to various communities across different games?</li>
+                </ul>
+                <p> 
+                    To answer these questions, we proceed in the following way: We handpicked the top 5 YouTubers of all time for the game category we chose. This choice makes more sense here to have an answer to these questions, as lots of YouTubers play multiple games and can therefore attract a diverse audience. However, the ones we chose mainly propose content on these particular games.
+                    However, for the research on the authors and how they behaved across the different communities, we chose to select a sample of 25 millions comments from more than 1.5 millions authors on more than 3 millions gaming videos. We then used the tags under the videos they commented on to attribute a game to the commented video.
+                </p>
+
+                <p>
+                    PUT PLOT YTBRS STATS
+                </p>
+
+                <p>
+                    We can already observe that even by selecting the most famous YouTuber for each game, some games are more watched than others. (......).
+                </p>
                 <figure style="text-align: center;">
                     <iframe src="plots/median_data_game_cat.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
                 </figure>
+                <p>
+                    First, when analyzing the general data of these channels, we observed that even though Fortnite YouTubers published fewer videos than other gaming channels, they still hold the highest rankings in terms of subscriber count.
+                    This shows us that, in a short amount of time, Fortnite YouTubers seem to have closed the gap with strongly established YouTubers who were playing games that were already well-known.
+                    But we have to be cautious; Fortnite YouTubers might be well-known today with Fortnite, but did they really start producing content when Fortnite came out, or have they been on YouTube for years?                
+                </p>
+
                 <figure style="text-align: center;">
                     <iframe src="plots/joindate_famous_ytbrs.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
                 </figure>
+
+                <p>
+                    When looking at the join date of famous YouTubers, we observe that they all started their channels between 2006 and 2016, before the creation of Fortnite. For example, 'Ali-A' began his channel in 2006 but is now known for his Fortnite videos, even though he initially produced only Call of Duty content. The difference: he was getting 10k views before and 500k today. The same pattern repeats for other YouTubers. For instance, the most famous Fortnite player, 'Ninja,' started his channel in 2011, but like 'Ali-A,' he was playing another famous FPS game, Halo. More generally, when looking at these YouTubers, they were all already producing content, but when they switched to Fortnite, everything changed! They became real opportunity takers.
+                </p>
+
+                <p>
+                    PUT PLOT FORTNITE YTBRS
+                </p>
+
+                <p>
+                    Now that we know that the famous Fortnite YouTubers of today are, in fact, seasoned platform creators who waited several years before gaining fame, we can delve into their communities. While these YouTubers owe their current fame to their content, creativity, and talent, it's primarily due to their communities that began following them. But who are these followers? Are they new to the platform, drawn to YouTube by the release of Fortnite? Or do they come from another well-established community?
+                </p>
+
+                <p>
+                    To answer this question, we can begin by delving into the time series data. By taking all the game category time series, averaging them by game, and computing their correlation coefficients with Fortnite, we obtained these impressive results.                
+                </p>
                 <figure style="text-align: center;">
                     <iframe src="plots/dviews_corr_withF.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
                 </figure>
+                <p>
+                    Fortnite shows a strong negative correlation with Minecraft and FIFA in terms of delta views per week! Based on these correlations, it appears that a significant portion of the Fortnite audience comes from the Minecraft community. 
+                    Examining the time series delta view graph from the previous question makes it clear that Fortnite and Minecraft seem to be mutually competing for views.
+                    But what about the comments? 
+                </p>
+
+
                 <figure style="text-align: center;">
                     <iframe src="plots/tag_counts_pie_chart.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
                 </figure>
+
+                <p>
+                    As mentioned earlier, comments are the best metric to evaluate the real community for a game. While views serve as a good indicator for the general audience and success of a 
+                    game, analyzing the strength of the comments community and its origin is crucial to measure the community impact. First, as mentioned earlier, we based this analysis on a sample of 25 million comments. Within this sample, we observed a high proportion of Fortnite 
+                    and Minecraft comments, approximately 1,800,000 and 4,300,000 comments respectively. We then measured the proportion of new commenters under Fortnite videos who produced their first comments specifically under a 
+                    Fortnite video, compared to new commenters that were already commenting on another game.
+                </p>
+
+                <p>
+                    PUT PLOT camembert provenance des com
+                </p>
+
+                <p>
+                    (...comments on the graph...).But for the new commenters who already had a community, what was their community? Was it similar to the Minecraft community, like the viewers?
+                </p>
+
                 <figure style="text-align: center;">
                     <iframe src="plots/common_authors_plot.html" style="height:600px; width:100%;" frameborder="0" position="relative"></iframe>
                 </figure>
+
+                <p>
+                    And yes, similar to the views, the majority of new Fortnite authors were former Minecraft authors. This graph, illustrating the proportion of common authors between Fortnite and other games between 2015 and 2018, 
+                    shows that Minecraft and Fortnite shared almost 50,000 authors.
+                </p>
+
+                <p>
+                    All these pieces of evidence of community 'migration' motivated us to create a compelling illustration of this story: the visualization of the behavior of gaming communities from 2012 to 2019 (in music). This visual graph clip highlights how a YouTube gaming landscape formerly dominated by Minecraft was completely transformed by the release of Fortnite. 
+                    The graph nodes represent the size of the communities in terms of live comments, and the flow indicates the number of comments migrating from one community to another. 
+                </p>
+              
                 <h4>Pop-Culture Impact</h4>
                 <p>
                     Fortnite's impacts transcended the gaming world, leaving an indelible mark on mainstream entertainment. 
