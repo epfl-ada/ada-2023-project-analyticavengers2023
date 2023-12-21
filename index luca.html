@@ -155,9 +155,10 @@
                     In the following chart, we can see the distribution of youtube channels in the main youtube categories.
         
                 </p>
-                <figure style="text-align: center;">
-                    <iframe src="plots/categories_pie_chart.html" style="height:600px; width:100%;" frameborder="0" position="relative"></iframe>
-                </figure>
+                <div style="text-align: center;">
+                    <iframe src="plots/videos_per_category_pie.html" style="height: 600px; width: 400px; display: inline-block;" frameborder="0" position="relative"></iframe>
+                    <iframe src="plots/categories_pie_chart.html" style="height: 600px; width: 400px; display: inline-block;" frameborder="0" position="relative"></iframe>
+                </div>
                 <p>
                     Many communities thrive on YouTube, and each category has its own unique characteristics. The major communities by far are Music, Entertainment, and Gaming. 
                     These are the categories which count the most subscribers, with billions of people interacting with them almost every day. 
@@ -181,6 +182,7 @@
                     Let's dive in!
                 </p>
 
+
                 <!-----------------------   Part 1   ----------------------->
                 <h2>YouTube Gaming Past History</h2>
                 <p>
@@ -189,30 +191,62 @@
                 </p>
                 <p>
                     Through out years, we saw the rise of influential gaming channels and content creators who played a crucial role in shaping the platform. 
-                    Channels like PewDiePie, Markiplier, and others gained massive followings, contributing to the growth of gaming as a major category on YouTube.   
+                    Channels like PewDiePie, Markiplier, and others gained massive followings, contributing to the growth of gaming as a major category on YouTube. 
+                    PewDiePie is a special example as he strongly cemented his position as the most subscribed channel on YouTube, with more than 110 million subscribers as of December 2020.
+
+                    
                 </p>
                 <figure style="text-align: center;">
-                    <iframe src="plots/Log_transformed_delta_views_beforeF_timeseries.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
+                    <iframe src="plots/delta_subs_big_gamers.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
+                    <iframe src="plots/delta_views_big_gamers.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
                 </figure>
 
+                <p>
+                    The first graph tracks the change in subscribers (delta subs) over time from January 2017 to July 2019.
+                    All three channels show variability in subscriber growth, with several peaks and troughs.
+                    PewDiePie's channel stands out with two significant spikes, one reaching nearly 2 million new subs in a very short period.
+                    The other two channels, Markiplier and Jacksepticeye, also show spikes, but they are less pronounced compared to PewDiePie's.
+                </p>
+                <p>
+                    The second graph monitors the change in video views (delta views) within the same timeframe.
+                    Again, there's considerable fluctuation in monthly views for all channels.
+                    All three channels appear to have a similar pattern of views with peaks often coinciding.
+                    PewDiePie's channel again shows the most considerable individual spikes in views, although not as stark as with the subscriber growth.
+
+                </p>
+                <p>
+                    Both graphs display that PewDiePie's channel has the most substantial fluctuations in growth and views, suggesting viral content or external factors influencing growth at specific times.
+                    The similar patterns between the channels might indicate that the gaming audience on YouTube has shared viewing habits or that events affecting one channel also affect the others due to audience overlap.
+                    It is interesting to note that the peaks in subscribers do not always coincide with peaks in views, suggesting that new subscribers may not always be immediately active in viewing content or that views can increase without a corresponding growth in subscribers, possibly due to viral content being shared outside of the subscriber base.
+                 
+                </p>
+                <p>
+                    More generally.,.frgfer
+
+                </p>
+                <figure style="text-align: center;">
+                    <iframe src="plots/dviews_beforeF.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
+                </figure>
+                <figure style="text-align: center;">
+                    <iframe src="plots/dviews_corr_beforeF.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
+                </figure>
+                
                 Before Fortnite, the gaming community was already a major player on YouTube, with millions of channels and billions of views, bringing together a diverse audience of players and viewers alike. 
                 From the plot, we can see the most iconic and influential games which shaped the gaming community on YouTube between 2017 and early 2018, before Fortnite became a big success. 
                 Namely, Minecraft has seen cementing its position at the top of the food chain, where channels making Minecraft content ammased millions of viewers mostly every week, constantly.
-
-
 
                 <!-----------------------   Part 2   ----------------------->
                 <h2>The Rise of a Gaming Giant</h2>
                 <p>
                     In July 2017, the gaming landscape witnessed what would be later a seismic shift with the release of the early access of Fortnite, a brand new battle-royale game. 
-                    The game, developed by Epic Games, not only marked a significant milestone for the battle royale genre but also became a global sensation, captivating players and audiences in ways that few could have anticipated.
+                    The game, developed by Epic Games, not only marked a significant milestone for the battle royale genre but also became a global sensation, captivating players and YouTube communities in ways that few could have anticipated.
                 </p>
                 <h4>A New Game Idea</h4>
                 <p>
                     Initially introduced as a cooperative survival game, it was the addition of the free-to-play battle royale mode, released on September 26 of the same year, that propelled Fortnite into unparalleled success.
                 </p>
                 <figure style="text-align: center;">
-                    <iframe src="plots/Log_transformed_delta_subs_withF_timeseries.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
+                    <iframe src="plots/dviews_withF.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
                 </figure>
                 <p>
                     The battle royale genre, characterized by a last-player-standing competition in an ever-shrinking play area, was previously led by PlayerUnknown's Battlegrounds (PUBG) but Fortnite brought a fresh and accessible approach. 
@@ -224,6 +258,21 @@
                     This approach inspired by classic Season Pass proved immensely successful, leading other titles to adopt similar systems in the years that followed.
                 </p>
                 <h4>YouTube Community</h4>
+                <figure style="text-align: center;">
+                    <iframe src="plots/median_data_game_cat.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
+                </figure>
+                <figure style="text-align: center;">
+                    <iframe src="plots/joindate_famous_ytbrs.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
+                </figure>
+                <figure style="text-align: center;">
+                    <iframe src="plots/dviews_corr_withF.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
+                </figure>
+                <figure style="text-align: center;">
+                    <iframe src="plots/tag_counts_pie_chart.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
+                </figure>
+                <figure style="text-align: center;">
+                    <iframe src="plots/common_authors_plot.html" style="height:600px; width:100%;" frameborder="0" position="relative"></iframe>
+                </figure>
                 <h4>Pop-Culture Impact</h4>
                 <p>
                     Fortnite's impacts transcended the gaming world, leaving an indelible mark on mainstream entertainment. 
@@ -261,7 +310,7 @@
                 </p>
 
                 <!-----------------------   Part 3   ----------------------->
-                <h2>Future Horizons for YouTube Gaming</h2>
+                <h2>Future Impacts on YouTube Gaming</h2>
                 <p>
                     As the initial fervor surrounding Fortnite's naturally begins to slowdown, the landscape of YouTube Gaming finds itself at a crossroads, bringing questions about its future trajectory. 
                     The era of Fortnite, while transformative, has also highlighted the dynamic nature of gaming trends and the need for the platform to adapt to emerging preferences and innovations.
@@ -312,11 +361,10 @@
                 <p>    
                     This will be a major race against given the dominance of platforms such as Twitch and the recent surge in gaming streaming on prominent platforms like Discord, Facebook (through Facebook Gaming) or even Amazon Prime.
                 </p>
-                <h4>Virtual Reality</h4>
+                <!--<h4>Virtual Reality</h4>
                 <p>
                     Another potential avenue for the future of YouTube Gaming lies in the continued integration of virtual reality (VR) and augmented reality (AR) content. 
                 </p>
-                <!--- VR Videos -->
                 <figure style="text-align: center;">
                     <iframe src="plots/Log_transformed_delta_subs_withF_timeseries.html" style="height:400px; width:100%;" frameborder="0" position="relative"></iframe>
                 </figure>
@@ -328,7 +376,7 @@
                  <p>
                     These events are significant advances to online communities development. It allows interactions and meetings inside the single game community, but more importantly creates ones with the Music one.  
                     YouTube upcoming positions and strategies about VR and AR integration on their platform will be key for the platform future evolution.
-                </p>
+                </p>-->
                 <h2>Conclusion</h2>
                 <h4>References</h4>
                 <ul>
