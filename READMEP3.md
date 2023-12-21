@@ -5,7 +5,11 @@ Our [data story](https://epfl-ada.github.io/ada-2023-project-analyticavengers202
 # Abstract
 In this stage of our research, we delve deeper into the complex dynamics of gamer communities on YouTube, focusing particularly on the transformative impact of Fortnite. This game has not only revolutionized the battle-royale genre, but has also significantly influenced the structure and behavior of gamer communities on YouTube. Our analysis aims to understand how the introduction of Fortnite and the evolution of its features have altered viewer engagement patterns, community interactions and content creation trends on the platform. . In addition, we address the wider implications of Fortnite's influence, including its role in mainstream pop culture and its contributions to emerging issues such as online harassment in gaming spaces. Our aim is to present an overview of how a single game like Fortnite can act as a catalyst in shaping the landscape of digital communities, influencing both virtual and real-world interactions. 
 # Research Questions
-TODO
+<ul>
+                    <li>Did Fortnite attract pre-existing gamer YouTubers, or were Fortnite creators newcomers to the platforms?</li>
+                    <li>Did Fortnite attract viewership from established gaming communities, or did it build its own distinct audience?</li>
+                    <li>Do active authors who engage in extensive commentary participate in a singular community, or do they contribute to various communities across different games?                       </li>
+</ul>
 
 # Methodology
 
