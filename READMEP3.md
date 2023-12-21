@@ -45,4 +45,4 @@ Team Organisation
 - **Marc-Antoine** : TODO
 - **Paul** : TODO
 - **Luca** : TODO
-- **Zinebi Adam** : Video Editing, Migrations Graph, Games’ communities engagements through time, Games & Communities Pie Charts, ReadMe
+- **Adam** : Video Editing, Migrations Graph, Games’ communities engagements through time, Games & Communities Pie Charts, ReadMe
