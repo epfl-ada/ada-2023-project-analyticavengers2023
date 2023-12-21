@@ -31,17 +31,18 @@ We also analyzed each game's share of community engagement, using pie charts.
 And we produced a graph showing the evolution of each game's community by the number of comments in videos tagged with that game, to demonstrate Fortnite's clear dominance after its release. 
 TOCOMPLETE
 # Timeline
-Timeseries :
-5/12/2023 - Define how we will track authors to have the migrations scheme & Create the dictionary of migrations per date
-10/12/2023 - Create a Graph to illustrate migrations & create and editing a video using the graph created to animate the heart of our research topic
-15/12/2023 - Have an Office Hour with Dr. Manoel to check if our ideas and our vision of the data story is matching the course’s expectations.
-17/12/2023 - Create Data Visualisations (Pie Charts & Histograms) to show Fortnite’s Dominance
-18/12/2023 - Data Story, Page Design and ReadME
+
+- **5/12/2023**: Define how we will track authors to have the migrations scheme & Create the dictionary of migrations per date
+- **10/12/2023**: Create a Graph to illustrate migrations & create and edit a video using the graph created to animate the heart of our research topic
+- **15/12/2023**: Have an Office Hour with Dr. Manoel to check if our ideas and our vision of the data story is matching the course’s expectations.
+- **17/12/2023**: Create Data Visualisations (Pie Charts & Histograms) to show Fortnite’s Dominance
+- **18/12/2023**: Data Story, Page Design, and ReadME
+
 
 # Organization
 Team Organisation
-* Yubo : TODO
-* Marc-Antoine : TODO
-* Paul : TODO
-* Luca  : TODO
-* Zinebi Adam: Video Editing, Migrations Graph, Games’ communities engagements through time, Games & Communities Pie Charts, ReadMe
+- **Yubo** : TODO
+- **Marc-Antoine** : TODO
+- **Paul** : TODO
+- **Luca** : TODO
+- **Zinebi Adam** : Video Editing, Migrations Graph, Games’ communities engagements through time, Games & Communities Pie Charts, ReadMe
