@@ -19,16 +19,15 @@ In this stage of our research, we delve deeper into the complex dynamics of gami
 # Methodology
 
 #### Data Cleaning: 
-- Given the immense dataset that YouNiverse represents, we needed to refine the data we wanted to actually work with.
+- Given the immense dataset that YouNiverse represents, we needed to refine the data we wanted to actually work with.  
     - Initially, we wanted to study a subset of major communities (like News & Politics), but we decided to restrict our study to the _Gaming_ videos and define communities as major games.
     - As part of the cleaning, we manually selected relevant communities, mainly as games (like _GTA_). In each community, we also selected channels which were purely dedicated to these communities.
-- For now, we keep all authors, but we might filter authors who have a certain amount of comments. This is because users who comment 2 or 3 times in their lives aren't truly part of a community, whereas a user with $100$ comments truly belongs in one of the communities.
 - Finally, the only cleaning which was done was to reorganise the data in a meaningful and practical way (e.g., merging dataframes together)
 
 #### Community definition and viewer membership
 - A community is defined by a major game or is heavily related to Gaming. 
-- We studied comments on YouTube between the years 2015 and 2019 (the only years available in the time series data). From comments, we computed the category of videos authors commented on the most and linked them to a community. Using the time series data, we studied the comments data for every week, and if the majority of the comments users made in this time window changed over time, they changed community. For instance, if user $u$ authored 60% of their comments in category $X$ and 40% in category $Y$ at a certain time period $T$, they were linked to $X$. At time $T+T'$, suppose the proportions became 40% and 60% respectively, then user $u$ became a member of $Y$.
-- 
+- We studied comments on YouTube and from these, we computed the category of videos authors commented on the most and linked them to a community. Using the time series data, we studied the comments data for every week, and if the majority of the comments users made in this time window changed over time, they changed community. For instance, if user $u$ authored 60% of their comments in category $X$ and 40% in category $Y$ at a certain time period $T$, they were linked to $X$. At time $T+T'$, suppose the proportions became 40% and 60% respectively, then user $u$ became a member of $Y$.
+  
 #### Timeseries analysis
 A preliminary analysis was conducted on the timeseries data to observe the evolution of views and subscribers for the largest channels. However, as we decided to focus on Gaming videos, we delved deeper into this YouTube category. We explored the evolution in the timeseries of the specific channels we selected and examined the correlations over time. This enabled us to examine the interactions between communities. Our goal was to measure the outgoing comments from one community to another, identify instances of people leaving their communities, and determine when these transitions occur.
 We also utilized time series data to assess and observe real events as they occurred and their effects on the audience of YouTube channels related to these events. Time series data proved to be a valuable source, coupled and merged with the channel dataset, to address questions related to the join date or celebrity status of YouTubers.
