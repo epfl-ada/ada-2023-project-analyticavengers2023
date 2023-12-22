@@ -35,7 +35,6 @@ We tracked each author, analyzing how and when he switched his interest from one
 Finally, we produced a graph that explicitly illustrated the transitions from one game to another.
 We also analyzed each game's share of community engagement, using pie charts.
 And we produced a graph showing the evolution of each game's community by the number of comments in videos tagged with that game, to demonstrate Fortnite's clear dominance after its release. 
-TOCOMPLETE
 # Timeline
 
 - **5/12/2023**: Define how we will track authors to have the migrations scheme & Create the dictionary of migrations per date
