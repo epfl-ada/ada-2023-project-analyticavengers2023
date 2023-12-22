@@ -47,7 +47,7 @@ TOCOMPLETE
 
 # Organization
 Team Organisation
-- **Yubo** : TODO
+- **Yubo** : Implemented the graphs and researched on the YouTube gaming industry from a general perspective, data story of pre-Fortnite era
 - **Marc-Antoine** : Implemented the graph on timeseries, data story redaction
 - **Paul** : Implemented the graph on timeseries, correlations and youtubers, data story redaction, research on Fortnite in general for data story opening
 - **Luca** : Implemented the migrations graph, introduction to the data story and youtube gaming history.
